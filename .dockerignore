@@ -1,0 +1,7 @@
+﻿bin/
+obj/
+.vs/
+.git/
+out/
+*.user
+*.suo

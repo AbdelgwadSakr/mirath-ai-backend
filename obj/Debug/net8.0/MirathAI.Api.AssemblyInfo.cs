@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MirathAI.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2816beb1f5a3171efa970afe8828b9978b238a58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbf2e912cd61048af1e229786b626a09eb9e3047")]
 [assembly: System.Reflection.AssemblyProductAttribute("MirathAI.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MirathAI.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

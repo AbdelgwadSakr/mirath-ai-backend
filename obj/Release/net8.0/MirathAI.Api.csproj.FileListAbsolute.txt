@@ -150,3 +150,9 @@ C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\obj\Release\net8.0\refint\MirathAI.A
 C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\obj\Release\net8.0\MirathAI.Api.pdb
 C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\obj\Release\net8.0\MirathAI.Api.genruntimeconfig.cache
 C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\obj\Release\net8.0\ref\MirathAI.Api.dll
+C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\bin\Release\net8.0\out\web.config
+C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\bin\Release\net8.0\out\appsettings.Development.json
+C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\bin\Release\net8.0\out\appsettings.json
+C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\bin\Release\net8.0\out\MirathAI.Api.deps.json
+C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\bin\Release\net8.0\out\MirathAI.Api.runtimeconfig.json
+C:\Users\Sakr\Desktop\MirathAI\MirathAI.Api\bin\Release\net8.0\out\MirathAI.Api.staticwebassets.endpoints.json
