@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MirathAI.Api.DTOs;
+using MirathAI.Api.Services;
 
 namespace MirathAI.Api.Controllers
 {
@@ -9,11 +10,18 @@ namespace MirathAI.Api.Controllers
     [Authorize]
     public class InheritanceController : ControllerBase
     {
+        private readonly InheritanceCalculationService _service;
+
+        public InheritanceController(InheritanceCalculationService service)
+        {
+            _service = service;
+        }
+
         [HttpPost("calculate")]
         public IActionResult Calculate([FromBody] InheritanceRequestDto request)
         {
-            // مؤقت: بس عشان نثبت إن التوكن شغال
-            return Ok(new { ok = true, madhhab = request.Madhhab });
+            var result = _service.Calculate(request);
+            return Ok(result);
         }
     }
 }

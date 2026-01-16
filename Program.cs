@@ -86,7 +86,33 @@ builder.Services.AddAuthentication(options =>
 // Services
 builder.Services.AddScoped<JwtTokenService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
+//builder.Services.AddHttpClient<MirathAI.Api.Services.OpenAiAssistantService>();
+//builder.Services.AddHttpClient<GeminiAssistantService>();
+
+builder.Services.AddSingleton<ArabicHeirsParser>();
+
+builder.Services.AddSingleton<InheritanceCalculationService>();
+
+builder.Services.AddHttpClient<OllamaService>();
+
+builder.Services.AddScoped<InheritanceCalculatorDispatcher>();
+
+
 var app = builder.Build();
+
+app.UseCors("AllowFrontend");
+
 
 if (app.Environment.IsDevelopment())
 {
